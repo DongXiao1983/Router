@@ -31,9 +31,18 @@
 6. IGP  , hello neighbor
    router ad   
    BGP --> 1.create neighbor 2. create network   
+   network : interface IGP,   route  BGP
 
 7. BGP neighbor update-source   
 
 8.  EBGP multihop command
 
 9.  build with loopback port. 
+
+BGP: 
+
+10. BGP Syncgronization    
+    Rule:   Do not use or advrtise to an external neighbot route learned by IBGP until a matching route has been learned from an IGP. Why ?   
+    no Synchronization. / Learned from IGP   
+
+11. BGP Next hop
