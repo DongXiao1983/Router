@@ -27,5 +27,13 @@
    b. BGP neighbor full mesh   
    c. BGP -> IGP ( LAB )   
    d. MPLS    
-    
-   
+
+6. IGP  , hello neighbor
+   router ad   
+   BGP --> 1.create neighbor 2. create network   
+
+7. BGP neighbor update-source   
+
+8.  EBGP multihop command
+
+9.  build with loopback port. 
