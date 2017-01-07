@@ -46,3 +46,5 @@ BGP:
     no Synchronization. / Learned from IGP   
 
 11. BGP Next hop
+12. 同步的功能是在互联网早期为了防止路由黑洞和路由环路设计的一个规则（保证AS内防止路由环路，和BGP路由上所有路由器都知道如何将数据包转发到目的地），IGP中的路由必须与BGP中的保持一致，而现在网络IGP已经承载不了BGP的路由条目，所以要关闭   
+13. 
