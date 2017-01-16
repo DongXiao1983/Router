@@ -38,3 +38,10 @@
     4.MPLS was designed to support forwarding of non-IP protocols as well
 
 11. MPLS VPN
+    Tunnel口用私网地址，建立直连
+12. VPN： over Lay VPN  &  Peer-to-Peer VPN (运营商路由器参与)
+   L2: X.25 ,  Frame Relay  , ATM
+   L3: GRE   IPsec
+   ACLs, Split Routing, MPLS VPM
+13. VRF  for one MPLS VPN
+14. 一个VRF在PE短，会生成子路由表， PE 创建VRF后 一定要和某个连接CE的路由相连
