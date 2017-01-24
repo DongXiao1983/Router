@@ -42,6 +42,16 @@
 12. VPN： over Lay VPN  &  Peer-to-Peer VPN (运营商路由器参与)
    L2: X.25 ,  Frame Relay  , ATM
    L3: GRE   IPsec
+   
    ACLs, Split Routing, MPLS VPM
 13. VRF  for one MPLS VPN
-14. 一个VRF在PE短，会生成子路由表， PE 创建VRF后 一定要和某个连接CE的路由相连
+14. 一个VRF在PE端，会生成子路由表，这个自路由表用来传递客户端的私网路由表， PE 创建VRF后 一定要和某个连接CE的路由相连
+15. VRF 一台PE创建一个VRF
+16. Route Distinguishers
+64bit： How will information about the overlapping subnetworks of two customers be propaagated via a single routing protocal?
+    Externd the customer addresses to make them unique.
+The 64-bit RD is prepended to an IPv4 address to make it globally unqiue.
+17. Route Targets
+18. MPBGP router  , VPNv4 BGP
+19. Community : standerd, no export , local vs, RT
+20. A CE router ( customer edge router ) is a router located on the customer premises that provides an Ethernet interface between the customer's LAN and the provider's core network. CE routers, P (provider) routers and PE (provider edge) routers are components in an MPLS (multiprotocol label switching) architecture. Provider routers are located in the core of the provider or carrier's network. Provider edge routers sit at the edge of the network. CE routers connect to PE routers and PE routers connect to other PE routers over P routers
