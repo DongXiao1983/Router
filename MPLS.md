@@ -55,3 +55,4 @@ The 64-bit RD is prepended to an IPv4 address to make it globally unqiue.
 18. MPBGP router  , VPNv4 BGP
 19. Community : standerd, no export , local vs, RT
 20. A CE router ( customer edge router ) is a router located on the customer premises that provides an Ethernet interface between the customer's LAN and the provider's core network. CE routers, P (provider) routers and PE (provider edge) routers are components in an MPLS (multiprotocol label switching) architecture. Provider routers are located in the core of the provider or carrier's network. Provider edge routers sit at the edge of the network. CE routers connect to PE routers and PE routers connect to other PE routers over P routers
+21. OSPF 
