@@ -59,3 +59,6 @@ PIM-DM 减裁， route发现下游没有接收组播的接收者（通过IGMP检
        每三分钟一次的修剪和泛洪。
 
 所有启用PIM的接口，把流量放下去。
+
+PIM-SM
+Support both source and shard trees , Pull mode.
